@@ -1,0 +1,87 @@
+.container {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.dice {
+    text-align: center;
+    display: inline-block;
+}
+
+body {
+    background-color: #DFDDC7;
+}
+
+h1 {
+    margin: 30px;
+    font-family: 'Press Start 2P', cursive;
+    text-shadow: 5px 0 #232931;
+    font-size: 4rem;
+    color: #F58B54;
+}
+
+p {
+    font-size: 2rem;
+    color: #A34A28;
+    font-family: 'Urbanist', sans-serif;
+}
+
+img {
+    width: 80%;
+}
+
+footer {
+    margin-top: 5%;
+    color: #EEEEEE;
+    text-align: center;
+    font-family: 'Urbanist', sans-serif;
+}
+
+.redes-sociales {
+    margin-top: 50px;
+    padding: 50px;
+}
+
+.redes-sociales a {
+    text-decoration: none;
+    color: #F58B54;
+}
+
+.redes-sociales i {
+    font-size: 45px;
+    padding: 7.5px;
+}
+
+.rollDice {
+    height: 10rem;
+}
+
+.btnRollDice {
+    margin-top: 5rem;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    background-color: #F58B54;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #211717;
+}
+
+.btnRollDice i {
+    color: #DFDDC7;
+}
+
+.btnRollDice:active {
+    background-color: #A34A28;
+    box-shadow: 0 5px #211717;
+    transform: translateY(4px);
+}
+
+.dice img {
+    transition: all .8s ease;
+}
